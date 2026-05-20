@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaven - Validar Ações</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        .validar-container {
+            max-width: 700px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .card-auditoria {
+            border: 1px solid var(--primary-color);
+            padding: 2rem;
+            border-radius: 8px;
+            background-color: #fafdfa;
+            margin-top: 1.5rem;
+        }
+
+        .botoes-auditoria {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <a href="../index.html" class="logo">🌿 Heaven</a>
+
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="solucao-dashboard.html">Dashboard</a></li>
+                <li><a href="solucao-validar.html" class="active">Validar Ações</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="integrantes.html">Equipe</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="validar-container">
+        <h1>Central de Auditoria de Pares</h1>
+
+        <p>
+            Analise a evidência abaixo de forma totalmente imparcial.
+            Seu voto correto aumenta sua reputação na rede.
+        </p>
+
+        <article class="card-auditoria" id="card-principal">
+
+            <span
+                style="background: var(--secondary-color); color: var(--dark-color); padding: 0.2rem 0.6rem; font-size: 0.8rem; font-weight: bold; border-radius: 4px;">
+                AÇÃO PENDENTE ID #9821
+            </span>
+
+            <h3 style="margin-top: 0.5rem;">
+                Categoria: Descarte de Eletrônicos
+            </h3>
+
+            <p style="margin: 1rem 0; font-style: italic; color: #555;">
+                "Descartei 3 baterias velhas de celular e um monitor antigo
+                no posto de coleta oficial do Ecofácil no shopping central.
+                Segue anexo o canhoto digitalizado gerado pela máquina."
+            </p>
+
+            <div
+                style="border: 1px dashed #aaa; padding: 2rem; text-align: center; color: #777; background: #fff;">
+
+                🖼️ [Imagem do comprovante anexada pelo usuário]
+
+            </div>
+
+            <div class="botoes-auditoria">
+                <button
+                    class="btn btn-primary"
+                    onclick="votarAcao(true)"
+                    style="background-color: #2e7d32; flex: 1;">
+                    Aprovar Registro
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    onclick="votarAcao(false)"
+                    style="background-color: #c62828; flex: 1;">
+                    Rejeitar / Fraude
+                </button>
+            </div>
+
+            <div
+                id="validacao-feedback"
+                style="margin-top: 1rem; font-weight: bold; text-align: center;">
+            </div>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Heaven Project - Turma 1TDSPW.
+            Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/interacoes.js"></script>
+
+</body>
+</html>
