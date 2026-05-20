@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaven - FAQ</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        .faq-container {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--gray-border);
+            padding: 1rem 0;
+        }
+
+        .faq-pergunta {
+            background: none;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--dark-color);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-resposta {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            color: #555;
+            margin-top: 0.5rem;
+        }
+
+        .faq-resposta.open {
+            max-height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <a href="../index.html" class="logo">🌿 Heaven</a>
+
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="solucao-dashboard.html">Dashboard</a></li>
+                <li><a href="solucao-validar.html">Validar Ações</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="integrantes.html">Equipe</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="faq-container">
+        <h1 style="color: var(--dark-color); margin-bottom: 2rem; text-align: center;">
+            Perguntas Frequentes
+        </h1>
+
+        <div class="faq-item">
+            <button class="faq-pergunta">
+                Como a plataforma evita fraudes?
+                <span>+</span>
+            </button>
+
+            <div class="faq-resposta">
+                <p>
+                    Nenhuma validação é feita por um único usuário. Cada ação passa por um
+                    comitê aleatório e anônimo. Além disso, usuários que tentam aprovar
+                    fraudes perdem pontuação de reputação, diminuindo o peso dos seus
+                    votos futuros.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-pergunta">
+                O que são as Streaks (Sequências)?
+                <span>+</span>
+            </button>
+
+            <div class="faq-resposta">
+                <p>
+                    As Streaks contam quantos dias seguidos você registrou pelo menos
+                    uma ação sustentável na plataforma. Manter sequências altas
+                    multiplica os pontos recebidos pelas suas atividades cotidianas.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-pergunta">
+                Para que servem os pontos acumulados?
+                <span>+</span>
+            </button>
+
+            <div class="faq-resposta">
+                <p>
+                    Os pontos representam o seu impacto ecológico gerado e, futuramente,
+                    poderão ser trocados por descontos em passagens de transporte público,
+                    serviços parceiros e produtos ecorresponsáveis.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Heaven Project - Turma 1TDSPW. Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+    <script>
+        // Lógica do Accordion do FAQ (JavaScript interativo)
+        document.querySelectorAll('.faq-pergunta').forEach(botao => {
+            botao.addEventListener('click', () => {
+                const resposta = botao.nextElementSibling;
+
+                resposta.classList.toggle('open');
+
+                botao.querySelector('span').textContent =
+                    resposta.classList.contains('open') ? '−' : '+';
+            });
+        });
+    </script>
+
+</body>
+</html>
