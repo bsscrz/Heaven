@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaven - Equipe</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        /* CSS focado na página de equipe, sem quebrar separação de arquivos */
+
+        .grid-equipe {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .card-integrante {
+            border: 1px solid var(--gray-border);
+            border-radius: 8px;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            background-color: var(--white);
+            transition: var(--transition);
+        }
+
+        .card-integrante:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+        }
+
+        .foto-perfil {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color: #ddd; /* Placeholder caso estejam sem foto no momento */
+            margin: 0 auto 1.5rem;
+            object-fit: cover;
+            border: 3px solid var(--secondary-color);
+        }
+
+        .links-sociais a {
+            margin: 0 0.5rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .links-sociais a:hover {
+            color: var(--dark-color);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <a href="../index.html" class="logo">🌿 Heaven</a>
+
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="solucao-dashboard.html">Dashboard</a></li>
+                <li><a href="solucao-validar.html">Validar Ações</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="integrantes.html" class="active">Equipe</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section style="text-align: center; padding: 3rem 2rem 0;">
+            <h1 style="color: var(--dark-color);">Integrantes do Projeto</h1>
+            <p>Conheça a equipe desenvolvedora do Heaven da turma <b>1TDSPW</b></p>
+        </section>
+
+        <div class="grid-equipe">
+
+            <article class="card-integrante">
+                <div class="foto-perfil"></div>
+                <h2>Arthur Souza</h2>
+                <p style="color: #666; margin-bottom: 0.5rem;">RM 573023</p>
+
+                <div class="links-sociais">
+                    <a href="https://github.com/arthurlopes20007" target="_blank">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </article>
+
+            <article class="card-integrante">
+                <div class="foto-perfil"></div>
+                <h2>Lucas Bossi</h2>
+                <p style="color: #666; margin-bottom: 0.5rem;">RM 572876</p>
+
+                <div class="links-sociais">
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </article>
+
+            <article class="card-integrante">
+                <div class="foto-perfil"></div>
+                <h2>Pedro Moraes</h2>
+                <p style="color: #666; margin-bottom: 0.5rem;">RM 569786</p>
+
+                <div class="links-sociais">
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </article>
+
+            <article class="card-integrante">
+                <div class="foto-perfil"></div>
+                <h2>Rick Nascimento</h2>
+                <p style="color: #666; margin-bottom: 0.5rem;">RM 571828</p>
+
+                <div class="links-sociais">
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Heaven Project - Turma 1TDSPW. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
