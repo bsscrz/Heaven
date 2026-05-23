@@ -1,7 +1,5 @@
 # 🌿 Heaven
 
-> Projeto desenvolvido para a avaliação acadêmica da turma **1TDSPW**.
-
 ---
 
 ## 📋 Descrição do Projeto
@@ -176,6 +174,33 @@ Projeto desenvolvido para fins acadêmicos na disciplina de desenvolvimento web 
 ---
 
 ## 💾 Commits
+**Lucas Bossi Cruz**
+1-core: definicao da arquitetura de pastas e criacao do readme informativo
+2-core: configuracao da paleta de cores globais e reset de estilos no css
+17-feat: imagens adicionadas dentro de contato e integrantes.
+19-feat: Readme re-criado, e prints adicionados.
+20-feat: Readme atualizdo.
+
+**Arthur de Souza Lopes**
+5-feat: implementacao do menu responsivo hamburguer em javascript
+6-feat: criação da pagina de validacao em javascript
+11-feat: criação das interações
+15-feat: index atualizado, contato estava errado
+16-feat: Alterações feitas dentro do Contato e Integrantes.html, emails e numeros adicionados
+
+**Pedro Daniel Melo de Moraes**
+8-feat: criacao da pagina faq
+9-feat: criação da solução-dashboard
+10-feat: criacao da pagina solucao-validar
+14-feat: alterações feitas nos HTML
+18-feat: ALterações de equipe para integrantes.
+
+**Rick Nascimento da Costa**
+3-feat: estruturacao semantica da pagina inicial integrantes.html
+4-feat: criacao da pagina de integrantes com dados e links obrigatorios
+7-feat: criação da pagina sobre
+12-feat: Alterações e remoções feitas para cada arquivo
+13-feat: contato re-adicionado
 
 ## © Licença
 
