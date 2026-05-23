@@ -1,56 +1,183 @@
-```markdown
 # 🌿 Heaven
 
-> Projeto desenvolvido pela equipe **Heaven**, turma **1TDSPW**.
-> Sistema focado no monitoramento e validação de ações voltadas à sustentabilidade e conformidade ambiental.
+> Projeto desenvolvido para a avaliação acadêmica da turma **1TDSPW**.
 
 ---
 
-## 🔗 Links Úteis
+## 📋 Descrição do Projeto
 
-* **🌐 Site Oficial (Link Público):** [https://bsscrz.github.io/Heaven/](https://bsscrz.github.io/Heaven/)
-* **💻 Repositório do Projeto:** [https://github.com/bsscrz/Heaven](https://github.com/bsscrz/Heaven)
+O **Heaven** é uma plataforma digital voltada para o monitoramento, centralização e validação de ações sustentáveis e de conformidade ambiental.
 
----
+Seu principal objetivo é permitir que usuários e instituições acompanhem métricas ecológicas, validem atividades ambientais e tomem decisões mais conscientes com base em dados organizados em um ecossistema intuitivo, moderno e responsivo.
 
-## 📋 Sobre o Projeto
-
-O **Heaven** é uma plataforma criada para centralizar, validar e monitorar ações de impacto ecológico e sustentável. Através de uma interface limpa, intuitiva e totalmente responsiva, o sistema permite que usuários acompanhem métricas em tempo real, validem suas atividades institucionais e compreendam melhor os pilares de preservação ambiental aplicados ao cotidiano e a negócios.
-
-### 🌟 Principais Funcionalidades
-
-* **Dashboard de Soluções:** Visualização de dados e métricas cruciais sobre as ações em andamento.
-* **Validação de Ações:** Área dedicada para auditoria e aprovação de práticas sustentáveis.
-* **Central de Ajuda (FAQ) & Contato:** Suporte completo e dinâmico para os usuários da plataforma.
-* **Página de Integrantes:** Apresentação dos desenvolvedores responsáveis pela concepção do ecossistema Heaven.
-
----
-
-## 👥 Integrantes Desenvolvedores (Turma 1TDSPW)
-
-O projeto foi planejado, estruturado por:
-
-* **Arthur Souza** — RM 573023
-* **Lucas Bossi** — RM 572876
-* **Pedro Moraes** — RM 569786
-* **Rick Nascimento** — RM 571828
+A proposta do sistema busca unir **tecnologia, acessibilidade e sustentabilidade**, oferecendo uma experiência visual limpa e funcional.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-O ecossistema foi construído utilizando as melhores práticas de desenvolvimento web front-end, garantindo semântica, acessibilidade e performance:
+O desenvolvimento front-end do projeto foi realizado utilizando tecnologias nativas e modernas.
 
-* **HTML5:** Estruturação semântica de todas as páginas (tags como `<header>`, `<main>`, `<article>` e `<footer>`).
-* **CSS3:** Estilização moderna utilizando variáveis globais (`var(--primary-color)`), layouts flexíveis e responsividade nativa através de **CSS Grid** (`auto-fit`) e Media Queries.
-* **JavaScript (Vanilla):** Lógica de interação do usuário, controle do menu responsivo (`menu-toggle`) e dinamismo dos componentes.
+### Estrutura e Desenvolvimento
+- **HTML5** → Estruturação semântica da aplicação.
+- **CSS3** → Estilização visual, responsividade e organização do layout.
+- **JavaScript (Vanilla JS)** → Manipulação do DOM, interações dinâmicas e lógica da aplicação.
+
+### Recursos Aplicados
+- CSS Grid
+- Flexbox
+- Variáveis CSS globais
+- Responsividade mobile-first
+- Menu hambúrguer responsivo
+- Validação de formulários
+- Simulação de auditoria descentralizada
+- Organização modular de scripts
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## 📂 Estrutura de Pastas do Projeto
 
-Caso queira clonar o repositório e rodar o projeto em sua máquina:
+```text
+Heaven/
+│
+├── index.html                  # Página inicial (Home)
+├── README.md                   # Documentação do projeto
+│
+├── css/
+│   └── style.css               # Estilos globais da aplicação
+│
+├── js/
+│   ├── main.js                 # Funcionalidades gerais e menu responsivo
+│   ├── interacoes.js           # Scripts de interações da plataforma
+│   └── validacao.js            # Fluxo de auditoria e validações
+│
+├── img/                        # Imagens e identidade visual
+│   ├── eu lindo.png
+│   ├── Image.jfif
+│   ├── Image(rick).jfif
+│   ├── nielda.webp
+│
+└── paginas/
+    ├── contato.html
+    ├── faq.html
+    ├── integrantes.html
+    ├── sobre.html
+    ├── solucao-dashboard.html
+    └── solucao-validar.html
+```
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/bsscrz/Heaven.git](https://github.com/bsscrz/Heaven.git)
+---
+
+## ⚙️ Funcionalidades do Sistema
+
+O projeto Heaven conta com as seguintes funcionalidades:
+
+- Página inicial institucional
+- Dashboard de métricas ecológicas
+- Simulação de auditoria descentralizada
+- Aprovação e rejeição de ações ambientais
+- Sistema de feedback visual
+- Menu responsivo mobile
+- Formulário com validação estruturada
+- Área FAQ
+- Página da equipe
+- Layout totalmente responsivo
+
+---
+
+## 🖼️ Representação Visual do Projeto
+
+### Página Inicial
+Print da Home
+<img src="./img/Home(Heaven).png" alt="Home">
+
+### Dashboard
+Print do Dashboard
+<img src="./img/Dashboard(Heaven).png" alt="Dashboard">
+
+### Tela de Auditoria / Validação
+Print da tela de auditoria
+<img src="./img/Auditoria(Heaven).png" alt="Auditoria">
+
+### Página da Equipe
+Print da página de integrantes
+<img src="./img/Integrantes(Heaven).png" alt="Integrantes">
+
+## 👨‍💻 Autores e Créditos
+
+### Arthur Souza
+- **RM:** 573023  
+- **Turma:** 1TDSPW  
+- **GitHub:** <a href="https://github.com/arthurlopes2007"></a>  
+- **LinkedIn:** <a href="https://www.linkedin.com/in/arthur-souza-lopes-037112346/"></a>
+
+---
+
+### Lucas Bossi
+- **RM:** 572876  
+- **Turma:** 1TDSPW  
+- **GitHub:** <a href="https://github.com/bsscrz"></a>  
+- **LinkedIn:** <a href="https://www.linkedin.com/in/lucas-bossi-1a54443a3/"></a>
+
+---
+
+### Pedro Moraes
+- **RM:** 569786  
+- **Turma:** 1TDSPW  
+- **GitHub:** <a href="https://github.com/PedroDaniel7"></a>  
+- **LinkedIn:** <a href="https://www.linkedin.com/in/pedrodanielmoraes/"></a>
+
+---
+
+### Rick Nascimento
+- **RM:** 571828  
+- **Turma:** 1TDSPW  
+- **GitHub:** <a href="https://github.com/rcostaa-dev"></a>  
+- **LinkedIn:** <a href="https://www.linkedin.com/in/rick-nascimento-b063733b6/"></a>
+
+---
+
+## 🔗 Repositório Oficial
+
+GitHub do projeto:
+<a href="https://github.com/bsscrz/Heaven"></a>
+
+---
+
+## 🌐 Link do Site / Deploy
+
+
+## 📞 Contato / Suporte
+
+Caso tenha alguma dúvida, sugestões ou queira contribuir com o projeto:
+
+📧 E-mail´s:
+    arthurdesouzalopes635@gmail.com
+    lucabossicruz@gmail.com
+    pedrodaniel.mmoraes@gmail.com
+    rickgodinhotk7@gmail.com
+
+Ou entre em contato pelos perfis GitHub e LinkedIn dos integrantes.
+
+---
+
+## 📚 Créditos Acadêmicos
+
+Projeto desenvolvido para fins acadêmicos na disciplina de desenvolvimento web da turma **1TDSPW**, com foco em:
+
+- Estruturação semântica HTML
+- Responsividade
+- Organização de arquivos
+- Manipulação de DOM
+- JavaScript puro
+- Interface intuitiva
+- Sustentabilidade aplicada à tecnologia
+
+---
+
+## 💾 Commits
+
+## © Licença
+
+Projeto acadêmico de uso educacional.
+Todos os direitos reservados aos integrantes da equipe **Heaven**.
