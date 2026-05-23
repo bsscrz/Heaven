@@ -53,7 +53,7 @@ Heaven/
 │   ├── eu lindo.png
 │   ├── Image.jfif
 │   ├── Image(rick).jfif
-│   ├── nielda.webp
+│   └── nielda.webp
 │
 └── paginas/
     ├── contato.html
@@ -182,6 +182,7 @@ Projeto desenvolvido para fins acadêmicos na disciplina de desenvolvimento web 
 17-feat: imagens adicionadas dentro de contato e integrantes.
 19-feat: Readme re-criado, e prints adicionados.
 20-feat: Readme atualizdo.
+21-feat: Link para o site adicionado ✅
 
 **Arthur de Souza Lopes**
 5-feat: implementacao do menu responsivo hamburguer em javascript
