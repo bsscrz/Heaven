@@ -106,44 +106,44 @@ Print da página de integrantes
 ### Arthur Souza
 - **RM:** 573023  
 - **Turma:** 1TDSPW  
-- **GitHub:** <a href="https://github.com/arthurlopes2007"></a>  
-- **LinkedIn:** <a href="https://www.linkedin.com/in/arthur-souza-lopes-037112346/"></a>
+- **GitHub:** https://github.com/arthurlopes2007  
+- **LinkedIn:** https://www.linkedin.com/in/arthur-souza-lopes-037112346/
 
 ---
 
 ### Lucas Bossi
 - **RM:** 572876  
 - **Turma:** 1TDSPW  
-- **GitHub:** <a href="https://github.com/bsscrz"></a>  
-- **LinkedIn:** <a href="https://www.linkedin.com/in/lucas-bossi-1a54443a3/"></a>
+- **GitHub:** https://github.com/bsscrz  
+- **LinkedIn:** https://www.linkedin.com/in/lucas-bossi-1a54443a3/
 
 ---
 
 ### Pedro Moraes
 - **RM:** 569786  
 - **Turma:** 1TDSPW  
-- **GitHub:** <a href="https://github.com/PedroDaniel7"></a>  
-- **LinkedIn:** <a href="https://www.linkedin.com/in/pedrodanielmoraes/"></a>
+- **GitHub:** https://github.com/PedroDaniel7  
+- **LinkedIn:** https://www.linkedin.com/in/pedrodanielmoraes/
 
 ---
 
 ### Rick Nascimento
 - **RM:** 571828  
 - **Turma:** 1TDSPW  
-- **GitHub:** <a href="https://github.com/rcostaa-dev"></a>  
-- **LinkedIn:** <a href="https://www.linkedin.com/in/rick-nascimento-b063733b6/"></a>
+- **GitHub:** https://github.com/rcostaa-dev  
+- **LinkedIn:** https://www.linkedin.com/in/rick-nascimento-b063733b6/
 
 ---
 
 ## 🔗 Repositório Oficial
 
 GitHub do projeto:
-<a href="https://github.com/bsscrz/Heaven"></a>
+https://github.com/bsscrz/Heaven
 
 ---
 
 ## 🌐 Link do Site
-<a href="https://bsscrz.github.io/Heaven/"></a>
+https://bsscrz.github.io/Heaven/
 
 ---
 
@@ -183,6 +183,7 @@ Projeto desenvolvido para fins acadêmicos na disciplina de desenvolvimento web 
 19-feat: Readme re-criado, e prints adicionados.
 20-feat: Readme atualizdo.
 21-feat: Link para o site adicionado.
+23-feat: Readme atualizado mais uma vez, links terão de ser copiados e colados em guias.
 
 **Arthur de Souza Lopes**
 5-feat: implementacao do menu responsivo hamburguer em javascript.
